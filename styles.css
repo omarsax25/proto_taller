@@ -1,0 +1,52 @@
+.center_imagen {
+    text-align: center;
+    color: white;
+}
+.img_logo {
+    margin-top: 20px;
+    height: 100px;
+}
+.bgfondologin {
+    background-color: black;
+}
+.cover_empresa {
+    background: url(images/coverempresa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container_login {
+    top: 3px;
+    left: 3px;
+    position: relative;
+    width: calc(100% - 6px);
+    background: linear-gradient(0deg, rgb(24, 24, 24), black);
+    border-radius: inherit;
+    min-height: 500px;
+}
+.area_login {
+    position: relative;
+    content: '';
+    border-radius: 3%;
+    background: linear-gradient(45deg, #e6fb04, #ff6600, #00ff66, #00ffff, #ff00ff, #ff0099, #6e0dd0, #ff3300, #099fff);
+    background-size: 400%;
+    margin: 5% auto;
+    width: 70%;
+    min-height: 506px;
+    
+}
+.area_login:hover {
+    animation: animate 20s linear infinite;
+    
+}
+@keyframes animate {
+    0%{
+        background-position: 0 0;
+    }
+    50%{
+        background-position: 400% 0;
+    }
+    100%{
+
+        background-position: 0 0;
+    }
+}
