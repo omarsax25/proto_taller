@@ -12,36 +12,40 @@
         <div class="row">
             <div class="col-md-6 bgfondologin vh-100">
                 <div class="area_login">
-                    <div class="container_login">
+                    <div class="container_login p-3">
                         <div class="center_imagen">
                             <img src="images/logoempresa.jpeg" class="img_logo">
                         </div>
-                        <div class="center_imagen">
+                        <div class="center_imagen login_chat">
                             <h1>Hola, Identificate</h1>
                             <span>Para acceder a gestionar las operaciones de los talleres</span>
                         </div>
-                        <form class="row g-2 p-3 needs-validation" novalidate action="app-disponibles.html">
+                        <form class="row g-2 p-4 needs-validation" novalidate action="app-disponibles.html">
                             <div class="mb-3">
-                              <label for="validationCustom01" class="form-label">Usuario</label>
+                              <label for="validationCustom01" class="form-label label_login">Usuario</label>
                               <input type="text" class="form-control form-control-lg bg-light fs-6" id="validationCustom01" required>
                               <div class="invalid-feedback">
                                 Ingresar el usuario
                               </div>
                             </div>
                             <div class="mb-3">
-                              <label  for="validationCustom02" class="form-label">Contraseña</label>
+                              <label  for="validationCustom02" class="form-label label_login">Clave</label>
                               <input type="password" class="form-control form-control-lg bg-light fs-6" id="validationCustom02" required>
                               
                               <div class="invalid-feedback">
-                                Ingresar contraseña
+                                Ingresar Clave
                               </div>
                             </div>
-                            <div class="d-grid gap-2 col-6 mx-auto">
-                              <button class="btn btn-success" type="submit">Ingresar</button>
+                            <div class="d-grid gap-2 d-flex justify-content-center flex-nowrap">
+                              <button class="btn btn-danger w-50" type="submit">Ingresar</button>
+                              <button class="btn btn-outline-danger w-50" type="submit">Recuperar Clave</button>
                             </div>
                           </form>
-                          <div class="">
-                            <p class="text-center "></p>
+                          <div class="area_login_help d-flex">
+                            <img src="images/headset.png">
+                            <p class="d-block">Soporte del sistema<br/>
+                              <span>Si necesita ayuda comunicarse al 999245345</span>
+                            </p>
                           </div>
                     </div>
                     
